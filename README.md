@@ -67,7 +67,8 @@ console.log(__commandLineAPI);
 
 ##### __commandLineAPI
 ```javascript
-var members = Object.keys(__commandLineAPI).filter(function(key) {
+var members = Object.keys(__commandLineAPI)
+  .filter(function(key) {
     return ! (key in console);
 }).reduce(function(obj, key) {
    obj[key] = __commandLineAPI[key];
