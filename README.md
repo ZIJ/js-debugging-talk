@@ -56,3 +56,10 @@ console.table(
     ['href', 'text']
 );
 ```
+
+##### debugger;
+```javascript
+(function() {
+    debugger;
+})();
+```
