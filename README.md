@@ -19,3 +19,13 @@ document.addEventListener('keydown', function(event) {
   console.count(String.fromCharCode(event.keyCode));
 });
 ```
+
+##### Measuring performance of [ineffecient] Fibonacci number calculation
+```javascript
+function fibonacci(n) {
+  return (n > 1) ? fibonacci(n - 2) + fibonacci(n - 1) : n;
+}
+console.time('fibonacci');
+console.log(fibonacci(30));
+console.timeEnd('fibonacci');
+```
