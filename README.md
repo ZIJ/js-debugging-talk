@@ -35,17 +35,17 @@ console.timeEnd('fibonacci');
 ```
 
 ```javascript
-var json = [
+var people = [
     {
-        "name": "Hopper", "surname": "Herring"
+        name: 'Hopper', surname: 'Herring'
     }, {
-        "name": "Sampson", "surname": "Douglas"
+        name: 'Sampson', surname: 'Douglas'
     }, {
-        "name": "Carmella", "surname": "Vincent"
+        name: 'Carmella', surname: 'Vincent'
     }, {
-        "name": "Therese", "surname": "Moore"
+        name: 'Therese', surname: 'Moore'
     }, {
-        "name": "Phelps", "surname": "Sweet"
+        name: 'Phelps', surname: 'Sweet'
     }
 ];
 console.table(json);
