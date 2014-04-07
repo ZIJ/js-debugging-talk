@@ -34,6 +34,11 @@ console.log(fibonacci(30));
 console.timeEnd('fibonacci');
 ```
 
+##### console.dir()
+```javascript
+console.dir(console);
+```
+
 ```javascript
 var people = [
     {
