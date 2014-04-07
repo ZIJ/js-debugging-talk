@@ -50,5 +50,8 @@ var people = [
     }
 ];
 console.table(people);
-console.table(document.getElementsByTagName('a'), ['href', 'text']);
+console.table(
+    document.getElementsByTagName('a'),
+    ['href', 'text']
+);
 ```
