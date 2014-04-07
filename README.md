@@ -52,7 +52,7 @@ var people = [
 ];
 console.table(people);
 console.table(
-    document.getElementsByTagName('a'),
+    document.querySelectorAll('a'),
     ['href', 'text']
 );
 ```
