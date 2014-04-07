@@ -48,5 +48,6 @@ var people = [
         name: 'Phelps', surname: 'Sweet'
     }
 ];
-console.table(json);
+console.table(people);
+console.table(document.getElementsByTagName, ['href', 'text']);
 ```
