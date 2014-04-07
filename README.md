@@ -47,10 +47,6 @@ var people = [
         name: 'Sampson', surname: 'Douglas'
     }, {
         name: 'Carmella', surname: 'Vincent'
-    }, {
-        name: 'Therese', surname: 'Moore'
-    }, {
-        name: 'Phelps', surname: 'Sweet'
     }
 ];
 console.table(people);
