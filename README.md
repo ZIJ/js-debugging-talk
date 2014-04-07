@@ -62,4 +62,5 @@ console.table(
 (function() {
     debugger;
 })();
+console.log(__commandLineAPI);
 ```
