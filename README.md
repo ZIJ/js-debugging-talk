@@ -3,7 +3,7 @@ js-debugging-talk
 
 Code snippeds for my "Debugging JS with Chrome" talk at FDC'14
 
-##### Logging, warnings, errors and assertion
+##### console.log(), .warn(), .error(), .assert()
 ```javascript
 var obj = {
   prop: 1, child: {
@@ -17,14 +17,14 @@ console.error('something went wrong');
 console.assert("str" instanceof String, 'gotcha!');
 ```
 
-##### Counting keypresses
+##### console.count()
 ```javascript
 document.addEventListener('keydown', function(event) {
   console.count(String.fromCharCode(event.keyCode));
 });
 ```
 
-##### Measuring performance of [ineffecient] Fibonacci number calculation
+##### console.time()
 ```javascript
 function fibonacci(n) {
   return (n > 1) ? fibonacci(n - 2) + fibonacci(n - 1) : n;
