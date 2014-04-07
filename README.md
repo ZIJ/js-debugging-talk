@@ -33,3 +33,20 @@ console.time('fibonacci');
 console.log(fibonacci(30));
 console.timeEnd('fibonacci');
 ```
+
+```javascript
+var json = [
+    {
+        "name": "Hopper", "surname": "Herring"
+    }, {
+        "name": "Sampson", "surname": "Douglas"
+    }, {
+        "name": "Carmella", "surname": "Vincent"
+    }, {
+        "name": "Therese", "surname": "Moore"
+    }, {
+        "name": "Phelps", "surname": "Sweet"
+    }
+];
+console.table(json);
+```
