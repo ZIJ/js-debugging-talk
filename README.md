@@ -39,6 +39,7 @@ console.timeEnd('fibonacci');
 console.dir(console);
 ```
 
+##### console.table()
 ```javascript
 var people = [
     {
