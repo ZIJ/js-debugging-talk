@@ -3,6 +3,17 @@ js-debugging-talk
 
 Code snippeds for my "Debugging JS with Chrome" talk at FDC'14
 
+##### async call stacks
+```javascript
+setTimeout(function () {
+    $.ajax({
+        url: 'http://echo.jsontest.com/foo/bar'
+    }).done(function(response) {
+        debugger;    
+    });
+}, 500);
+```
+
 ##### console.log(), .warn(), .error(), .assert()
 ```javascript
 var obj = {
